@@ -1,0 +1,35 @@
+# macOS / Windows / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# ---------------------------------------------------------------
+# Safety net: never commit a manager's real data to this repo.
+#
+# If you clone this repo and test the setup inside it, the assistant
+# will create filled-in coach files named after your actual coach
+# (coach-smith-profile.md). Those contain real names, emails, and
+# phone numbers. The rules below keep them out of git.
+#
+# The NAME templates are explicitly allowed back in.
+# ---------------------------------------------------------------
+
+coach-*-profile.md
+coach-*-schedule.md
+!templates/coach-NAME-profile.md
+!templates/coach-NAME-schedule.md
+
+# GotSport schedule exports — contain team, venue, and contact data.
+# These belong in your working folder, never in the repo.
+*.csv
+*.xlsx
+*.xls
+
+# Filled-in personal files, if you ever work inside a clone.
+# Templates live in templates/ and are tracked; copies elsewhere are not.
+/user-profile.md
+/manager-config.md
+/scheduling-tracker.md
+/manager-messaging-templates.md
