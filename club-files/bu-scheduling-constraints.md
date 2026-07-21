@@ -183,9 +183,9 @@ each manager's manager-config.md at the start of the season.
 - **Club Meetings:** Less impact on games but worth noting.
 
 ### Fall 2026 Club Events:
-[TBD - update when Fall 2026 club calendar is published]
 
-- [Event name]: [Date] - [Impact on scheduling]
+- **SJ vs. LAFC (MLS):** Saturday, September 19, 2026 — 4:30 PM kickoff at Levi's Stadium.
+  Managers should gauge their team's attendance and plan games to complete earlier in the day.
 
 ---
 
