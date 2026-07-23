@@ -188,6 +188,25 @@ each manager's manager-config.md at the start of the season.
 
 ---
 
+## SEASON END DEADLINES
+
+### Game Completion Deadlines:
+- **All teams:** All games must be completed by **November 15, 2026**
+- **Extended deadline:** November 22, 2026 — select teams only.
+  Coaches will be aware if their team has an extension. Managers
+  should confirm directly with their coach before scheduling
+  anything in the Nov 16–22 window.
+- **High school teams (U15+):** Practices end by **October 30, 2026**.
+  Games may continue through November 15.
+
+### How the Assistant Uses This:
+- Flag any proposed game date after November 15 with a warning
+- For dates November 16–22, note that only select teams with an
+  extension may schedule in this window — confirm with coach first
+- Do not schedule anything after November 22
+
+---
+
 ## HOLIDAY AND SCHOOL CALENDAR CONSTRAINTS
 
 ### Overview:

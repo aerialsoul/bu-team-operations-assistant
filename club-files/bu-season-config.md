@@ -16,7 +16,9 @@
 
 - **Season Name:** Fall 2026
 - **Season Start Date:** August 15, 2026 (first N1L prelim games)
-- **Season End Date:** [TBD]
+- **Season End Date:** November 15, 2026 (all games must be completed)
+- **Extended End Date:** November 22, 2026 (select teams only — coaches will be aware)
+- **High School Team Practice End:** October 30, 2026 (U15 and older)
 - **Status:** Planning
 
 ---
