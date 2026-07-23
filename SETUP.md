@@ -36,13 +36,16 @@ BU Team Ops - [Your Team]
 ```
 
 Copy into it:
-- **everything** from `club-files/`
 - **everything** from `templates/`
 
-Leave `system-instructions/`, `README.md`, and `CHANGELOG.md` in the
-downloaded bundle. You don't need them in your working folder.
+That's it. The club-wide files (field info, scheduling constraints, season
+config, etc.) load automatically from the web at the start of each session —
+you don't need a local copy, and they're always current.
 
-Your working folder should now have thirteen `.md` files.
+Leave `system-instructions/`, `club-files/`, `README.md`, and `CHANGELOG.md`
+in the downloaded bundle. You don't need them in your working folder.
+
+Your working folder should now have six `.md` files.
 
 ### 3. Create the Claude project
 
@@ -82,29 +85,33 @@ game day, or track a reschedule request.
 
 ## Keeping it current
 
-The assistant checks for a newer bundle at the start of each session and
-tells you if yours is behind.
+**Club-wide data updates automatically.** Field info, scheduling constraints,
+season dates — these are fetched from GitHub at the start of every session.
+When something changes, you get it the next time you open the assistant.
+No download, no file replacement.
 
-To update:
+**System instructions occasionally need a manual update.** The assistant
+checks its own version at session start and tells you if a newer version
+is available. When that happens:
 
-1. Download the latest release.
-2. Replace the `bu-*.md` files in your working folder with the new ones.
-3. **Leave everything else alone.** Your profile, config, coach files, and
-   tracker are yours and won't be touched.
+1. Go to the [latest release](https://github.com/aerialsoul/bu-team-operations-assistant/releases/latest).
+2. Open `system-instructions/BU-Team-Operations-Assistant.md` in any
+   text editor. Select all, copy.
+3. In your Claude project, paste it into the custom instructions field
+   and save.
 4. Read `CHANGELOG.md` — anything marked **ACTION NEEDED** needs a look.
 
-The club files are designed to be thrown away and replaced. That's why you
-shouldn't edit them: your edit would vanish on the next update, and if the
-information is wrong for you it's probably wrong for everyone. Report it
-instead.
+Your personal files (profile, config, coach files, tracker) are never
+touched by an update.
 
 ---
 
 ## Option B: Read-only (no file writing)
 
-Without a paid plan you can still upload the same files to a regular Claude
-project as knowledge. Claude will read them and answer questions — conflict
-checks, game day walkthroughs, message drafts.
+Without a paid plan you can still upload your personal files to a regular
+Claude project as knowledge. Claude will read them and answer questions —
+conflict checks, game day walkthroughs, message drafts. Club-wide data
+still loads automatically from GitHub.
 
 What you lose: Claude can't update your files. You'll maintain
 `scheduling-tracker.md` and your config files by hand, and paste them back

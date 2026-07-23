@@ -2,12 +2,31 @@
 
 All notable changes to the club-wide files and system instructions.
 
-This bundle uses a single version number covering everything in
-`club-files/` and `system-instructions/`. Personal templates are versioned
-implicitly — they change rarely, and never overwrite your copy.
-
 Format: newest first. Entries marked **ACTION NEEDED** require you to do
 something after updating.
+
+---
+
+## [1.1] — 2026-07-22
+
+### Changed
+
+- **Club-wide files now load automatically from GitHub** at session start.
+  Managers no longer need a local copy of the `club-files/` folder.
+  When club data changes, every manager gets the update on their next
+  session — no download, no file replacement.
+
+  **ACTION NEEDED:** Update your system instructions to v1.3 (this release).
+  After that, you can delete the `bu-*.md` files from your working folder —
+  they are no longer used. Your personal files (profile, config, coach files,
+  tracker) are unaffected.
+
+- **Version check now tracks system instructions**, not club files.
+  The assistant tells you when a new version of the system instructions
+  is available and what changed.
+
+- **Setup simplified.** New managers only need six files in their working
+  folder (the personal templates). The `club-files/` copy step is gone.
 
 ---
 

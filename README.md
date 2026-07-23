@@ -47,11 +47,13 @@ you through the rest.
 Every file carries a `TIER:` line in its header telling you whether it's
 yours to edit. This matters when a new version comes out.
 
-### `club-files/` — CLUB-WIDE
+### `club-files/` — CLUB-WIDE (fetched automatically)
 
-Identical for every BU manager. **Do not edit these locally.** When a new
-bundle version is released, you replace them wholesale. If you find an
-error, report it (see below) so everyone gets the fix.
+Identical for every BU manager and maintained centrally on GitHub.
+**Managers do not need a local copy.** The assistant fetches these at the
+start of every session — when something changes, everyone gets it
+automatically on their next session. If you find an error, report it
+(see below) so everyone gets the fix.
 
 | File | What it holds |
 |------|---------------|
@@ -90,16 +92,14 @@ Claude project's custom instructions.
 
 ## Updating
 
-The assistant checks the published version at session start and tells you
-if your club files are behind. When that happens:
+**Club-wide data (field info, scheduling constraints, season config, etc.)
+updates automatically.** No action needed from managers.
 
-1. Download the latest release.
-2. Replace everything in `club-files/` with the new versions.
-3. Leave your personal files alone.
-4. Check `CHANGELOG.md` for anything needing your attention.
-
-Because club files are replaced rather than merged, there is nothing to
-reconcile — which is exactly why you shouldn't edit them locally.
+**System instructions** occasionally get a new version. The assistant
+checks at session start and tells you if yours is behind. When that happens,
+copy the new system instructions from the release and paste them into your
+Claude project's custom instructions field. Your personal files are never
+touched.
 
 ---
 
