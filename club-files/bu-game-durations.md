@@ -1,7 +1,6 @@
 # Belmont United Soccer Club - Game Durations
 #
-# TIER: CLUB-WIDE — Do not edit locally. Replaced wholesale on bundle update.
-# BUNDLE VERSION: 1.0
+# TIER: CLUB-WIDE — Managed centrally. Fetched from GitHub at session start.
 #
 # Source: NorCal League Standards
 # Age Groups Source: NorCal 2026/27 Age Group Matrix

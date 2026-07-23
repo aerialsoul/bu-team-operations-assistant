@@ -1,7 +1,6 @@
 # Belmont United Soccer Club - Season Configuration
 #
-# TIER: CLUB-WIDE — Do not edit locally. Replaced wholesale on bundle update.
-# BUNDLE VERSION: 1.0
+# TIER: CLUB-WIDE — Managed centrally. Fetched from GitHub at session start.
 #
 # Maintained by: BU Team Operations Assistant
 # Created By: Shane Rogers

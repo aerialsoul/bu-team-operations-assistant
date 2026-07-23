@@ -1,7 +1,6 @@
 # Belmont United Soccer Club - Field Procedures
 #
-# TIER: CLUB-WIDE — Do not edit locally. Replaced wholesale on bundle update.
-# BUNDLE VERSION: 1.0
+# TIER: CLUB-WIDE — Managed centrally. Fetched from GitHub at session start.
 #
 # Created By: Shane Rogers
 # Last Updated: July 2026
@@ -311,5 +310,5 @@ These principles apply to ALL BU home fields:
 
 ### When Procedures Are Unclear:
 1. Check this file first
-2. Check BU Manager site: https://belmontunited.
+2. Check BU Manager site: https://belmontunited.net/managers/
 
