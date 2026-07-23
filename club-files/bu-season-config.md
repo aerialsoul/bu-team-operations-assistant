@@ -40,11 +40,10 @@ Update each season when new events are created.
 - State Cup Events: [Varies by age group]
 
 ### Fall 2026:
-- Main League Events: [TBD]
-- N1L (National 1 League) Events: [TBD] — NEW for Fall 2026;
-  replaces NPL for some BU teams
-- NPL Events: [TBD - if still used by other BU teams]
-- State Cup Events: [TBD]
+- Main League / Premier Events: 54541
+- N1L (National 1 League) Events: 54043
+- NPL Events: N/A — N1L replaces NPL for all BU teams this season
+- State Cup Events: [TBD — confirmed there will be State Cup this season]
 
 ---
 
@@ -109,8 +108,8 @@ files should be reviewed and updated:
   matrix. There is no U18; U19 is a two-year band. Age groups are
   set by birth-date cutoff (August 1), not by birth year subtraction.
   See bu-game-durations.md.
-- **N1L replaces NPL** for some BU teams. Confirm which league your
-  team plays in before pulling schedule exports.
+- **N1L replaces NPL for all BU teams** this season. There is no NPL
+  for Fall 2026. Use event ID 54043 for N1L schedule exports.
 - **Team naming may change.** NorCal has asked clubs to standardize
   GotSport team naming. BU may move from birth-year names
   ("08B Rangers") to age-group names ("U19 Rangers"). Not yet
