@@ -15,7 +15,7 @@
 ## CURRENT SEASON
 
 - **Season Name:** Fall 2026
-- **Season Start Date:** [TBD - update when Fall 2026 schedule released]
+- **Season Start Date:** August 15, 2026 (first N1L prelim games)
 - **Season End Date:** [TBD]
 - **Status:** Planning
 
